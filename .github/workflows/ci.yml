@@ -1,5 +1,5 @@
 name: Deploy to GitHub Pages
-##debug
+##debug again
 on:
   push:
     branches:
