@@ -1,6 +1,7 @@
 # **Setting up a dev container for Go**
 
 * Primary author: [Joseph Pham](https://github.com/jhphamunc)
+* Reviewer: [Dinh Dang](https://github.com/dinhduedang)
 
 ## Prerequisites
 
