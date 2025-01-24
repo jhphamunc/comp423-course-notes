@@ -13,7 +13,7 @@
 
 ### Step 1: Create a New Project Directory
 
-1. Open a terminal and create a new directory:  
+1. Open a terminal and create a new directory using this code:  
     ```bash
     mkdir my-new-project
     cd my-new-project 
