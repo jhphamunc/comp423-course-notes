@@ -15,13 +15,13 @@
 ### Step 1: Create a New Project Directory
 
 1. Open a terminal and create a new directory:  
-    ```bash
+    ```title="bash"
     mkdir my-new-project
     cd my-new-project 
     ```
 
 2. Initialize a Git Repository:  
-    ```bash
+    ```title="bash"
     git init  
     ```
 
@@ -29,7 +29,7 @@
 
 1. In VS Code open the my-new-project directory. Which can be done by going to File->Open Folder
 
-2. Install "Dev Container" in the extension portion of GitHub
+2. Install "Dev Container" in the extension portion of VS Code
 
 3. Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory:
     ```  
@@ -74,7 +74,7 @@ go mod init github.com/<username>/go-dev-container
 
 Using echo we can create a main.go file
 
-```bash
+```title="bash"
 echo 'package main
 
 import "fmt"
@@ -87,7 +87,7 @@ func main() {
 ### Step 6: Compile and run main.go
 
 We can directly run the program with the run subcommand:
-```bash
+```title="bash"
 go run main.go
 ```
 Output:
@@ -95,13 +95,13 @@ Output:
 Hello COMP423
 ```
 Or we can use the build subcommand:
-```bash
+```title="bash"
 go build -o hello
 ```
 - This creates an executable file named ```hello```   
 
 Then we can run the file using:
-```bash
+```title="bash"
 ./hello
 ```
 Output:
