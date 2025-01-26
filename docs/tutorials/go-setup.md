@@ -143,4 +143,4 @@ Hello COMP423
     - go build is used when you need to repeatedly run a program
 
 !!! note
-    Both build and run have the same function, but they have better circumstances surrounding when to use them. Need to run the same file over and over again? Then build is going to be your best friend whereas run is quick and simple when you need to run a program just once!
+    Both build and run have the same function, but they have different circumstances surrounding when to use them. Need to run the same file over and over again? Then build is going to be your best friend whereas run is quick and simple when you need to run a program just once!
