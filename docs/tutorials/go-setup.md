@@ -63,14 +63,14 @@ Reopen the container by using the command palette (Ctrl+Shift+P or Cmd+Shift+P o
 
 Once the new Dev Container is setup, close out of the current terminal and open a new terminal tab within VS Code using ```go version``` to see if the container is running the newest version of Go.
 
-### Step 4: Initialize a new Go Module
+## Initialize a new Go Module
 
-1. Create a go.mod file using the mod subcommand found in Go  
+Create a go.mod file using the mod subcommand found in Go  
 ```
 go mod init github.com/<username>/go-dev-container
 ```
 
-### Step 5: Write the "Hello COMP423" Program
+## Write the "Hello COMP423" Program
 
 Using echo we can create a main.go file
 
@@ -84,7 +84,7 @@ func main() {
 }' > main.go
 ```
 
-### Step 6: Compile and run main.go
+## Compile and run/build main.go
 
 We can directly run the program with the run subcommand:
 ```title="bash"
@@ -109,7 +109,7 @@ Output:
 Hello COMP423
 ```
 
-### What is the difference between run and build?
+## What is the difference between run and build?
 - ```go run```:  
     - Compiles and executes the program in one step
     - Only temporary and no binary is saved
