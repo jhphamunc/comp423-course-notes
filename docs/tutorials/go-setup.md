@@ -20,23 +20,23 @@
     cd my-new-go-project 
     ```
 
-2. Initialize a Git Repository:  
+2. Initialize a Git Repository:   
     ```title="bash"
     git init  
     ```
 
 ### Step 2: Create a Dev Container for Go
 
-1. In VS Code open the my-new-project directory. Which can be done by going to File->Open Folder
+In VS Code open the my-new-project directory. Which can be done by going to File->Open Folder
 
-2. Install "Dev Container" in the extension portion of VS Code
+Install "Dev Container" in the extension portion of VS Code
 
-3. Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory:
+Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory:
     ```  
     .devcontainer/devcontainer.json
     ```
 
-4. In this devcontainer file we define the configuration for our development environment. Add this to devcontainer.json
+In this devcontainer file we define the configuration for our development environment. Add this to devcontainer.json
 ```
 {
     "name": "Go Dev Container",
@@ -52,10 +52,10 @@
 }
 ```
 
-- ```name```: The name of the Dev Container project
-- ```image```: The official Go Dev Container image which is given by Microsoft
-- ```customizations.vscode.extensions```: Ensures that the Go extension is downloaded
-- ```postCreateCommand```: runs the ```go version``` command after the container is started
+* ```name```: The name of the Dev Container project
+* ```image```: The official Go Dev Container image which is given by Microsoft
+* ```customizations.vscode.extensions```: Ensures that the Go extension is downloaded
+* ```postCreateCommand```: runs the ```go version``` command after the container is started
 
 ### Step 3: Open the Project in the Dev Container
 
