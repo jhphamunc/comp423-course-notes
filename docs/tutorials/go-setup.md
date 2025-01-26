@@ -16,8 +16,8 @@
 
 1. Open a terminal and create a new directory:  
     ```title="bash"
-    mkdir my-new-project
-    cd my-new-project 
+    mkdir my-new-go-project
+    cd my-new-go-project 
     ```
 
 2. Initialize a Git Repository:  
