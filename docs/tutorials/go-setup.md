@@ -25,7 +25,10 @@
     git init  
     ```
 
-3. Check to make sure the main branch is called  ```main``` and not other conventions like ```master```. If master is the case use this
+!!! Note
+    Make sure your default branch is ```main```. Since ```main``` has become an industry wide standard, whereas other conventions like ```master``` has a historical context with oppression
+
+If main is not the default branch use this:
 ```title="bash"
 git branch -M main
 ```
@@ -89,6 +92,20 @@ func main() {
 }' > main.go
 ```
 
+Or simply creating a new file called main.go and adding this code in:
+
+```title="bash"
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello COMP423")
+}
+```
+
+!!! Note
+    Both conventions of code has the same exact information in the main.go file, but one creates and inserts the code into the file directly whereas the other you create the file then add the code 
 ## Compile and run/build main.go
 
 We can directly run the program with the run subcommand:
@@ -124,3 +141,6 @@ Hello COMP423
 - Key Difference:  
     - go run is used for quick testing
     - go build is used when you need to repeatedly run a program
+
+!!! note
+    Both build and run have the same function, but they have better circumstances surrounding when to use them. Need to run the same file over and over again? Then build is going to be your best friend whereas run is quick and simple when you need to run a program just once!
