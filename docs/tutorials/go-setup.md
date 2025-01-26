@@ -25,13 +25,18 @@
     git init  
     ```
 
+3. Check to make sure the main branch is called  ```main``` and not other conventions like ```master```. If master is the case use this
+```title="bash"
+git branch -M main
+```
+
 ### Step 2: Create a Dev Container for Go
 
 In VS Code open the my-new-project directory. Which can be done by going to File->Open Folder
 
 Install "Dev Container" in the extension portion of VS Code
 
-Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory:
+Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory (make sure your syntax is correct, noting the . before devcontainer):
     ```  
     .devcontainer/devcontainer.json
     ```
